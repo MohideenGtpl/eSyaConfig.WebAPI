@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HCP.Config.IF</id>
+    <version>1.0.0</version>
+    <authors>HCP.Config.IF</authors>
+    <owners>HCP.Config.IF</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.2">
+        <dependency id="HCP.Config.DO" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaConfig.WebAPI\trunk\eSyaConfig.IF\eSyaConfig.IF\bin\Debug\netcoreapp2.2\HCP.Config.IF.dll" target="lib\netcoreapp2.2\HCP.Config.IF.dll" />
+  </files>
+</package>

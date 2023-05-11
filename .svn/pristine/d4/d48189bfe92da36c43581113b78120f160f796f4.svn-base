@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using HCP.Config.DL;
+using HCP.Config.DL.Entities;
+using HCP.Config.DO;
+using HCP.Config.IF;
+using Microsoft.EntityFrameworkCore;
+
+namespace HCP.Config.DL.Repository
+{
+   public class HolidayMasterRepository:IHolidayMasterRepository
+    {
+    }
+}

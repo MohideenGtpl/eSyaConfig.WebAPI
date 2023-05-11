@@ -1,0 +1,14 @@
+﻿using HCP.Config.DL.Repository;
+using HCP.Config.DO;
+using HCP.Config.IF;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
+
+namespace HCP.Config.WebAPI.Controllers
+{
+    [Route("api/[controller]/[action]")]
+    [ApiController]
+    public class HolidayMasterController : ControllerBase
+    {
+    }
+}
